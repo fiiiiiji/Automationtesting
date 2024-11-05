@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
+
+
 url = "https://www.google.com/"
 browser = webdriver.Chrome()
 browser.get(url)
@@ -26,3 +28,5 @@ try:
 finally:
     # Закрытие драйвера
     browser.quit()
+
+    time.sleep(6)
