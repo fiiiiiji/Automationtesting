@@ -31,5 +31,4 @@ checkbox.click()
 
 submit = browser.find_element(By.CSS_SELECTOR, "button.btn.btn-default")
 submit.click()
-
-time.sleep(5)
+Start-Service ssh-agent

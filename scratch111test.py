@@ -27,4 +27,4 @@ knopochka = browser.find_element(By.CSS_SELECTOR, "button.btn.btn-primary")
 knopochka.click()
 
 
-time.sleep(6)
+time.sleep(7)

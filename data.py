@@ -26,7 +26,7 @@ try:
     print(extracted_text)  # Вывод текста в консоль
 
 finally:
+    time.sleep(5)
     # Закрытие драйвера
     browser.quit()
 
-    time.sleep(6)

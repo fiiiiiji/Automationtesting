@@ -28,6 +28,6 @@ knopochka = browser.find_element(By.ID, "solve")
 knopochka.click()
 
 
-time.sleep(6)
+time.sleep(7)
 
 
